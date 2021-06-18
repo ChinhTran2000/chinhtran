@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
+    font-size: 14px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+header {
+    background: orange;
+}
+
+header img {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background: black;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li {
+    line-height: 40px;
+    padding: 0px 1em;
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    float: center;
+}
+
+nav .menu a {
+    color: red;
+    text-decoration: none;
+    display: block;
+}
+
+nav .menu a:hover {
+    background: orange;
+    color: #333;
+}
+
+.menu .sub-monhoc {
+    text-align: center;
+    left: 0px;
+    top: 40px;
+    display: none;
+    position: absolute;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li:hover .sub-monhoc {
+    display: block;
+}
+
+.sub-monhoc li {
+    margin-left: 0 !important;
+}
+
+nav .search {
+    line-height: 35px;
+    float: right;
+    margin-right: 5%;
+}
+
+#content_left {
+    float: left;
+    width: 20%;
+    height: 1px;
+    background: white;
+}
+
+#content_center {
+    width: 60%;
+    text-align: center;
+    background: white;
+    float: left;
+}
+
+
+/*
+#content_center .i h2 {
+    list-style-type: none;
+    text-align: left;
+    float: left;
+}
+
+#content_center ul li {
+    list-style-type: none;
+    clear: left;
+    border-bottom: 1px solid black;
+}
+
+#content_center ul li img {
+    float: left;
+    margin-right: 10px;
+}
+*/
+
+#content_center ul li h2 {
+    font-size: 15px;
+}
+
+#content_right {
+    float: right;
+    width: 20%;
+    height: 1px;
+    background: white;
+    height: 1000px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: black;
+    line-height: 40px;
+    text-align: center;
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    clear: left;
+}
+
+footer h4 {
+    float: center;
+    padding-top: 0px;
+}
+
+#fix {
+    margin-right: 0px;
+}
